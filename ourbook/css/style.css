@@ -1,0 +1,85 @@
+* {
+   box-sizing: border-box;
+}
+
+body{
+margin: 0;
+background: url('../pics/books.jpg') fixed;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.box {
+    background-color: wheat;
+    width: 90%;
+    max-width: 600px;    
+    margin: 40px auto;
+
+}
+
+.cikk-kep {
+
+    background-image: url('../pics/piano.jpg');
+    height: 200px;
+
+
+}
+.content{
+    padding: 20px;
+
+}
+
+.box h2{
+    margin: 0;
+}
+
+.box .content .details a {
+    background: grey;
+    color:white;   
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+
+
+}
+.box .content .details {
+   margin-bottom: 0;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.nemet .details a{
+    background: grey;
+    color:white;   
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 900px;
+   
+
+}
+
+.nemet{
+    background-color: wheat;
+    width: 90%;
+    max-width: 1000px;    
+    margin: 40px auto;
+    
+
+
+}
+.nemet .content {
+padding: 10px 20px;
+
+}
+
+.nemet h1{
+padding: 10px 20px 0 40px;
+margin: 40px 0 0 0;
+
+}
